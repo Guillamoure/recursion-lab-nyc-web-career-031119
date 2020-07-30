@@ -58,3 +58,7 @@ function maxOf(array){
   }
 }
 
+function includesNumber(array){
+  
+}
+
