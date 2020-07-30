@@ -63,7 +63,9 @@ function includesNumber(array, num){
   if (array[0] === num){
     return true
     
+  } else {
+    array.shift()
+    includesNumber(array, num)
   }
-  if
 }
 
