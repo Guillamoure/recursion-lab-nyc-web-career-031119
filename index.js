@@ -47,7 +47,10 @@ function addUpTo(array, i){
 function maxOf(array){
   if (array.length > 1){
     if (array[0] > array[1]){
-      array.slice(1, 0)
+      array.splice(1, 1)
+      return maxOf(array)
+    } else {
+      array.shift()
       return maxOf(array)
     }
   } else {
