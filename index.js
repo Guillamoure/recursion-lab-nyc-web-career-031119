@@ -27,7 +27,7 @@ function isPalindrome(string){
   }
   if (string[0] === string[string.length - 1]){
     let subString = string.substring(1, string.length-1)
-    isPalindrome(subString)
+    return isPalindrome(subString)
   } else {
     return false
   }
