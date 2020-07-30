@@ -48,7 +48,7 @@ function maxOf(array){
   if (array.length > 1){
     if (array[0] > array[1]){
       array.slice(1, 0)
-      return max
+      return maxOf(array)
     }
   } else {
     return array[0]
