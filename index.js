@@ -65,7 +65,7 @@ function includesNumber(array, num){
     
   } else {
     array.shift()
-    includesNumber(array, num)
+    return includesNumber(array, num)
   }
 }
 
