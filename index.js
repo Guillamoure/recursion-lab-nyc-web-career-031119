@@ -34,6 +34,8 @@ function isPalindrome(string){
 }
 
 function addUpTo(array, i){
+  let firstIndex = array[0]
+  array.shift()
   
 }
 
